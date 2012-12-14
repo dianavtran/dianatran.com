@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Enriqueta);
 
 html, body {
-	background: #ccc url('/img/diagonal-noise.png');
+	background: #ccc url('../img/diagonal-noise.png');
 	color: #222;
 	padding: 6px;
 	margin: 0;
@@ -96,7 +96,7 @@ li {
 
 .down {
 	width: 100%;
-	background: transparent url("/img/transparentbar.png") no-repeat center top;
+	background: transparent url("../img/transparentbar.png") no-repeat center top;
 	text-align: center;
 	height: 20px;
 	margin: 0;
@@ -104,7 +104,7 @@ li {
 
 .up {
 	width: 100%;
-	background: transparent url('/img/transparentbar2.png') no-repeat center top;
+	background: transparent url('../img/transparentbar2.png') no-repeat center top;
 	text-align: center;
 	height: 20px;
 	margin: 0;
