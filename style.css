@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+body, html {
+	font-family: "futura-pt", sans-serif;
+}
+
+h1, h2, h3 {
+
+}
+
+#pagewrap {
+	min-height: 500px;
+}
+#pagewrap2 {
+	padding: 30px 30px 5px 30px;
+}
+
+#yo {
+	width: 100%;
+	min-height: 110px;
+	background-color: #FEE032;
+	padding: 25px 0;
+}
+	
+.fullwidthtext {
+	max-width: 740px;
+	text-align: left;
+	margin: 0 auto;
+	padding: 15px 30px;
+}
+
+.fullwidthtext p {
+	font-family: "Bitter", serif;
+	font-weight: 400;
+	font-size: 21px;
+	color: #222;
+	line-height: 1.3;
+	margin-top: -2px;
+}
+
+.fullwidthtext img {
+	float: left;
+	padding-right: 40px;
+}
+
+#contentwrapper {
+	max-width: 960px;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+#content {
+	width: 100%;
+	padding-top: 18px;
+}
+
+.name {
+	font-weight: 700;
+	font-size: 18px;
+	float: left;
+	padding-left: 5px;
+}
+
+.title {
+	font-weight: 400;
+	line-height: 1.3;
+	font-size: 17px;
+	color: #555;
+}
+
+nav {
+	text-align: right;
+	float: right;
+	padding: 10px 10px 0 0;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+	margin-left: 20px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	color: #222;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+#things {
+	width: 100%;
+	border-top: solid 1px #777;
+	margin-top: 103px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+ul.shiny {
+	width: 100%;
+	min-height: 500px;
+}
+
+.right {
+	padding-right: 0 !important;
+}
+
+ul.shiny li.projects {
+	padding-right: 2.6%%;
+	display: inline-block;
+	width: 23%;
+	height: auto;
+	float: left;
+	margin: 0;
+	padding-bottom: 3.4%;
+}
+
+#footer {
+	border-top: solid 1px #777;
+	margin-top: 70px;
+	padding-top: 20px;
+	clear:both;
+	color: #888;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+

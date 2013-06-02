@@ -1,16 +1,70 @@
----
-layout: main
-title: Diana Tran
----
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+    <title>Diana Tran</title>
+    <meta name="author" content="Diana Tran"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+ 	<link rel="stylesheet" href="style.css">
+ 	<link rel="stylesheet" href="responsive.css">
+ 	
+ 	<script type="text/javascript" src="//use.typekit.net/gyx0zay.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-<div class="content">
-  <div class="related">
-    <ul>
-      {% for post in site.posts %}
-      <li>
-	<span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
+	 <script>
+ 	   			$(document).ready(function() {
+ 	   				window.scrollTo(0,$('#pagewrap2').offset().top -13);
+ 	   			});
+
+ 	   			$(window).ready(function() {	
+ 	  				$('#yo').click(function() {
+ 	  					$('html,body').stop(true).animate({scrollTop: $("#pagewrap").offset().top}, 700);
+ 	  				});
+ 	  			});
+ 	 </script>
+
+ </head>
+
+ <body>
+
+ 	<div id="pagewrap">
+ 		<div id="yo">
+ 			<div class="fullwidthtext"><img src="monogram.png" /><p>Diana is a designer working at Google on the Search team. Previously, she was a Code for America fellow, spent some time in the Marines, and studied at the University of Texas at Arlington as well as Savannah College of Art + Design. </p>
+ 			</div>
+ 		</div>
+ 		<div id="pagewrap2">
+ 		<div id="contentwrapper">
+	 		<div id="content">
+	 			<div class="name">Diana V. Tran<br /><span class="title">Graphic Designer</span></div>
+	 			<nav>
+	 				<ul>
+	 					<li>Work</li>
+	 					<li>Blog</li>
+	 					<li>About</li>
+	 				</ul>
+	 			</nav>
+	 			<div id="things">
+	 				<ul class="shiny">
+		 				<li class="projects"><img src="Untitled-1.png" /></li>
+		 				<li class="projects"><img src="Untitled-1.png" /></li>
+		 				<li class="projects"><img src="Untitled-1.png" /></li>
+		 				<li class="right projects"><img src="Untitled-1.png" /></li>
+		 				<li class="projects"><img src="Untitled-1.png" /></li>
+		 				<li class="projects"><img src="Untitled-1.png" /></li>
+		 				<li class="projects"><img src="Untitled-1.png" /></li>
+		 			</ul>
+	 			</div>
+	 			<div id="footer">
+	 				2013   diana@dianatran.com   @dianavtran
+	 			</div>
+	 		</div>
+	 	</div>
+	 	</div>
+
+ 	</div>
+
+ </body>
