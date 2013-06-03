@@ -147,7 +147,7 @@ ul.shiny {
 }
 
 ul.shiny li.projects {
-	padding-right: 2.6%%;
+	padding-right: 2.6%;
 	display: inline-block;
 	width: 23%;
 	height: auto;
@@ -207,6 +207,6 @@ ul.badges li.badge {
 	width: 100%;
 	background-color: #ededed;
 	min-height: 420px;
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
 }
