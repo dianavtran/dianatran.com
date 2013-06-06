@@ -147,7 +147,7 @@ a {
 	width: 100%;
 	border-top: solid 1px #777;
 	margin-top: 101px;
-	padding: 35px 0 50px 0;
+	padding: 35px 0 30px 0;
 	text-align: center;
 }
 
@@ -189,7 +189,6 @@ ul.shiny li.projects {
 ul.shinier {
 	width: 100%;
 	padding-top: 15px;
-	min-height: 250px;
 }
 
 .right {
@@ -209,7 +208,7 @@ ul.shinier li.badge {
 #footer {
 	border-top: solid 1px #777;
 	padding-top: 20px;
-	margin-top: 40px;
+	margin-top: 20px;
 	clear:both;
 	color: #666;
 	font-weight: 400;
@@ -267,18 +266,7 @@ ul.shinier li.l1b {
 	padding-bottom: 2.5%;
 }
 
-ul.shinier li.l2b {
-	padding-right: 2.3%;
-	display: inline-block;
-	width: 31%;
-	height: auto;
-	float: left;
-	margin: 0;
-	padding-bottom: 2.5%;
-}
-
-#anchor {
-	height: 14px;
-	background-color: #FEE032;
-	width: 100%;
+.star {
+	color: #FEE032;
+	text-align: middle;
 }
