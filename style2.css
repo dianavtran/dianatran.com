@@ -1,0 +1,21 @@
+body, html {
+
+}
+
+#pagewrap {
+	min-height: 200px;
+}
+
+#stuff {
+	color: #777;
+	position: fixed;
+	z-index: 1;
+	background-color: #777;
+	width: 100%;
+}
+
+#container {
+	background-color: #ccc;
+	position: relative;
+	z-index: 100;
+}

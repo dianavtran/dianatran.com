@@ -14,18 +14,23 @@
  	<script type="text/javascript" src="//use.typekit.net/gyx0zay.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script src="js/offset.js"></script>
+	<script>
+ 	   			$(document).ready(function() {
+ 	   				window.scrollTo(0,$('#wrapper').offset().top);
+ 	   			});
+ 	</script>
  </head>
 
  <body>
- 	<div id="pagewrap">
+ 	<div id="topwrap">
  		<div id="yo">
  			<div class="fullwidthtext"><img src="img/monogram.png" /><p>Diana is a designer working at Google on the Search team. Previously, she was a Code for America fellow, spent some time in the Marines, and studied at the University of Texas at Arlington as well as Savannah College of Art + Design. </p>
  			</div>
  		</div>
- 		<div id="pagewrap2">
- 		<div id="contentwrapper">
-	 		<div id="content">
+ 	</div>
+ 		<div id="wrapper">
+ 			<div id="yellow">&nbsp;</div>
+ 			<div id="contentwrapper">
 	 			<div class="name">Diana V. Tran<br /><span class="title">Graphic Designer</span></div>
 	 			<nav>
 	 				<ul>
@@ -50,9 +55,8 @@
 	 			</div>
 	 		</div>
 	 	</div>
-	 	</div>
 
- 	</div>
+
 
  </body>
  </html>

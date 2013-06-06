@@ -8,20 +8,25 @@ h1, h2, h3 {
 
 }
 
-#pagewrap {
-	min-height: 800px;
-}
-#pagewrap2 {
-	margin: 0;
-	padding: 29px 0 5px 0;
-	background-color: #fff;
+#topwrap {
+	min-height: 155px;
+	clear: both;
 }
 
 #yo {
+	position: fixed;
 	width: 100%;
-	min-height: 110px;
 	background-color: #FEE032;
 	padding: 14px 0 20px 0;
+	z-index: 1;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0px 0 5px 0;
+	background-color: #fff;
+	position: relative;
+	z-index: 100;
 }
 	
 .fullwidthtext {
@@ -47,13 +52,16 @@ h1, h2, h3 {
 
 #contentwrapper {
 	max-width: 960px;
-	padding: 19px 0;
+	padding: 54px 15px 19px 15px;
 	margin: 0 auto;
+	
 }
 
-#content {
+#yellow {
 	width: 100%;
-	padding-top: 18px;
+	height: 12px;
+	background-color: #FEE032;
+	margin-bottom: 2px;
 }
 
 .name {
@@ -94,11 +102,11 @@ nav {
 }
 
 .bbb {
-	color: #bbb;
+	color: #ccc;
 }
 
 .bbb a {
-	color: #bbb;
+	color: #ccc;
 	text-decoration: none;
 }
 
@@ -152,7 +160,7 @@ a {
 }
 
 #projects p {
-	margin-bottom: 25px;
+	margin: -5px 0 25px 0;
 	font-family: "Bitter", serif;
 	font-size: 25px;
 	text-align: left;
@@ -209,8 +217,8 @@ ul.shinier li.badge {
 }
 
 #pagewrapyo {
-	margin: 15px;
-	padding: 28px 0 18px 0;
+	margin: 14px;
+	padding: 0 0 18px 0;
 	background-color: #FEE032;
 	position: absolute;
 	top: 0;
