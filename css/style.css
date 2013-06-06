@@ -143,6 +143,12 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #FEE032;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 #things {
 	width: 100%;
 	border-top: solid 1px #777;
@@ -173,17 +179,39 @@ ul.shiny {
 }
 
 .right {
-	padding-right: 0 !important;
+	margin-right: 0 !important;
 }
 
 ul.shiny li.projects {
-	padding-right: 4%;
+	margin: 0 4% 3.4% 0;
 	display: inline-block;
 	width: 22%;
 	height: auto;
 	float: left;
-	margin: 0;
-	padding-bottom: 3.4%;
+	position: relative;
+}
+
+.projdescription {
+	position: absolute;
+	width: 90%;
+	z-index: 200;
+	height: 90%;
+	background-color: rgba(255, 255, 255, .97);
+	margin: 4.5%;
+	display: none;
+}
+
+.projdescription p {
+	padding: 45% 0;
+	color:#222;
+}
+
+.projdescription a:hover {
+	color: #333;
+}
+
+.active {
+	display: block;
 }
 
 ul.shinier {
@@ -270,3 +298,4 @@ ul.shinier li.l1b {
 	color: #FEE032;
 	text-align: middle;
 }
+

@@ -19,6 +19,19 @@
  	   				window.scrollTo(0,$('#wrapper').offset().top);
  	   			});
  	</script>
+ 	<script>
+ 				$(document).ready(function () {
+    $('li.projects').hover(function(){
+        $('.projdescription', this).show();
+    },
+    function(){
+        $('.projdescription', this).hide();
+     });
+   ;
+})
+
+</script>
+
  </head>
 
  <body>
@@ -41,13 +54,34 @@
 	 			</nav>
 	 			<div id="things">
 	 				<ul class="shiny">
-		 				<li class="projects"><a href="democracy"><img src="img/thumb_democracy.jpg" /></a></li>
-		 				<li class="projects"><a href="barely-a-vapor"><img src="img/thumb_barely-a-vapor.jpg" /></a></li>
-		 				<li class="projects"><a href="overachiever"><img src="img/thumb_overachiever.png" /></a></li>
-		 				<li class="right projects"><a href="flying-rhino"><img src="img/thumb_flying-rhino.jpg" /></a></li>
-		 				<li class="projects"><a href="rocket-science"><img src="img/thumb_rsd.jpg" /></a></li>
-		 				<li class="projects"><a href="cards"><img src="img/thumb_cards.jpg" /></a></li>
-		 				<li class="projects"><a href="logos"><img src="img/thumb_logos.png" /></a></li>
+		 				<li class="projects"><a href="democracy">
+		 					<div class="projdescription">
+		 						<p>Democracy Day</p>
+		 					</div></a><img src="img/thumb_democracy.jpg" />
+		 				</li>
+		 				<li class="projects"><a href="barely-a-vapor">
+		 					<div class="projdescription"><p>Barely a Vapor</p>
+		 					</div><img src="img/thumb_barely-a-vapor.jpg" /></a>
+		 				</li>
+		 				<li class="projects"><a href="overachiever">
+		 					<div class="projdescription"><p>Overachiever</p>
+		 					</div><img src="img/thumb_overachiever.png" /></a>
+		 				</li>
+		 				<li class="right projects"><a href="flying-rhino">
+		 					<div class="projdescription"><p>Flying Rhino</p>
+		 					</div><img src="img/thumb_flying-rhino.jpg" /></a>
+		 				</li>
+		 				<li class="projects"><a href="rocket-science">
+		 					<div class="projdescription"><p>Rocket Science Design</p>
+		 					</div><img src="img/thumb_rsd.jpg" /></a>
+		 				</li>
+		 				<li class="projects"><a href="cards">
+		 					<div class="projdescription"><p>Diana Playing Cards</p>
+		 					</div><img src="img/thumb_cards.jpg" /></a>
+		 				</li>
+		 				<li class="projects"><a href="logos"><div class="projdescription"><p>Logos</p>
+		 				</div><img src="img/thumb_logos.png" /></a>
+		 				</li>
 		 			</ul>
 	 			</div>
 	 			<div id="footer">
