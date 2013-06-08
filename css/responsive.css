@@ -33,6 +33,7 @@ and (orientation : portrait) {
 	nav {
 		text-align: center;
 		margin-top: -35px;
+		margin-left: 5px;
 		font-size: 18px;
 		font-weight: 200;
 		border-bottom: 1px solid #ccc;
