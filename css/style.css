@@ -290,7 +290,7 @@ img {
 	width: 30px;
 	height: 30px;
 	position: absolute;
-	margin: -32px 0 0 -50px;
+	margin: -20px 0 0 -50px;
 	font-size: 40px;
 }
 
@@ -305,7 +305,7 @@ img {
 .arrowright {
 	position: relative;
 	float:right;
-	margin: -31px -40px 0 0;
+	margin: -20px -40px 0 0;
 }
 
 .star {
