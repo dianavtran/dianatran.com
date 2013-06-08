@@ -126,6 +126,9 @@ and (orientation : portrait) {
 		font-weight: 400;
 	}
 
+	#footer {
+		font-size: 14px;
+	}
 
 }
 
@@ -239,26 +242,6 @@ and (orientation : landscape) {
 
 	.nameproj {
 		font-size: 30px;
-	}
-
-	.arrow {
-		width: 30px;
-		height: 30px;
-		position: absolute;
-		margin: -32px 0 0 -43px;
-		font-size: 35px;
-		padding: 0 7px;
-	}
-
-	.arrow a {
-		color: #FEE032;
-	}
-
-.arrowright {
-		position: relative;
-		float:right;
-		margin: -33px -35px 0 0;
-		padding: 0 7px;
 	}
 }
 
