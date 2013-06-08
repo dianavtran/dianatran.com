@@ -1,0 +1,120 @@
+
+
+
+/* max-width 1000 */
+
+
+
+/* max-width 900 */
+
+
+
+/* max-width 800 */
+
+
+/* max-width 650 */
+
+
+/* max-width 550 */
+
+
+
+/* max-width 400 */
+
+/* iPhone5 portrait */
+@media only screen and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) {
+
+}
+
+/* iPhone5 landscape */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : landscape) { 
+
+	#things {
+		width: 100%;
+		border-top: solid 1px #777;
+		margin-top: 101px;
+		padding: 20px 0 10px 0;
+		text-align: center;
+	}
+
+	ul.shiny li.projects {
+		margin: 0 2.3%;
+		display: inline-block;
+		width: 45%;
+		height: auto;
+		position: relative;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	#teengirl-button{display:none;}
+	#teengirl-nav{display:none;}
+	
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	#teengirl-button{display:none;}
+	#teengirl-nav{display:none;}
+		
+/* Styles */
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+
+	body{
+		background: url("../images/background-repeat@2x.jpg") repeat;
+		background-size:101px auto;		
+	}
+	
+	.retina-safari article.thumb-article{
+		transition: none;
+		-moz-transition: none;
+		-webkit-transition: none;
+	}
+
+	.retina-safari article.thumb-article:hover{
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;   
+		 transform: none; 
+	}
+	
+	.retina-safari article.thumb-article.mellow:hover{
+		-webkit-transform: none;
+		-moz-transform: none;
+	}
+	
+	.retina-safari a img.side-project:hover{
+		transition: none;
+		-moz-transition: none;
+		-webkit-transition: none;
+	}
+	
+	.retina-safari .showcase-nav img.arrow {
+		transition: none;
+		-moz-transition: none;
+		-webkit-transition: none;
+	}
+	
+	.retina-safari a img{
+		-moz-transition: none;
+		-webkit-transition: none;
+		transition: none;
+	}
+	
+}
