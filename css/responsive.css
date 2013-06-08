@@ -21,9 +21,9 @@
 
 /* max-width 400 */
 
-/* iPhone5 portrait */
+/* iPhone5 / Nexus portrait */
 @media only screen and (min-device-width : 320px) 
-and (max-device-width : 568px) 
+and (max-device-width : 598px) 
 and (orientation : portrait) {
 
 	#topwrap {
@@ -132,11 +132,11 @@ and (orientation : portrait) {
 /* iPhone5 landscape */
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 568px) 
+and (max-device-width : 598px) 
 and (orientation : landscape) { 
 	
 	#topwrap {
-		min-height: 255px;
+		min-height: 235px;
 	}
 
 	nav {
@@ -225,9 +225,43 @@ and (orientation : landscape) {
 		font-size: 12px;
 	}
 
-/* iPads (landscape) ----------- */
+/* iPad (landscape) */
 
-	
+@media only screen 
+and (min-device-width : 603px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+
+	.nameyo {
+		font-size: 40px;
+		margin: 25px 0;	
+	}
+
+	.nameproj {
+		font-size: 30px;
+	}
+
+	.arrow {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		margin: -13px 0 0 -43px;
+		font-size: 35px;
+		padding: 0 7px;
+	}
+
+	.arrow a {
+		color: #FEE032;
+	}
+
+.arrowright {
+		position: relative;
+		float:right;
+		margin: -13px -35px 0 0;
+		padding: 0 7px;
+	}
+}
+
 /* Styles */
 
 
