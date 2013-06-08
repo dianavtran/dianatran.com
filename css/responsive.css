@@ -32,11 +32,11 @@ and (orientation : portrait) {
 
 	nav {
 		text-align: center;
-		margin-top: -35px;
+		margin-top: -45px;
 		padding-left: 6px;
 		font-size: 18px;
 		font-weight: 200;
-		border-bottom: 1px solid #ccc;
+		border-bottom: 1px solid #777;
 		padding-bottom: 20px;
 		float: none;
 	}
@@ -47,7 +47,12 @@ and (orientation : portrait) {
 	}
 
 	.name {
-		margin-top: 56px;
+		margin-top: 48px;
+	}
+
+	.nameyo {
+		font-size: 50px;
+		margin: 25px 0;	
 	}
 
 	.arrow {
@@ -96,7 +101,7 @@ and (orientation : portrait) {
 		font-size: 28px;
 		float: left;
 		padding-left: 5px;
-		margin: 32px 0 10px 0;
+		margin: 20px 0 10px 0;
 		color: #121212;
 	}
 
@@ -136,10 +141,10 @@ and (orientation : landscape) {
 
 	nav {
 		text-align: center;
-		margin-top: -35px;
+		margin-top: -45px;
 		font-size: 20px;
 		font-weight: 200;
-		border-bottom: 1px solid #ccc;
+		border-bottom: 1px solid #777;
 		padding-bottom: 20px;
 		float: none;
 	}
@@ -150,7 +155,7 @@ and (orientation : landscape) {
 	}
 
 	.name {
-		margin-top: 57px;
+		margin-top: 49px;
 	}
 
 	li.addy {
@@ -199,8 +204,13 @@ and (orientation : landscape) {
 		font-size: 40px;
 		float: left;
 		padding-left: 5px;
-		margin: 35px 0 10px 0;
+		margin: 25px 0 10px 0;
 		color: #121212;
+	}
+
+	.nameyo {
+		font-size: 50px;
+		margin: 25px 0;	
 	}
 
 	#projects p {
@@ -216,69 +226,12 @@ and (orientation : landscape) {
 	}
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-	#teengirl-button{display:none;}
-	#teengirl-nav{display:none;}
+
 	
 /* Styles */
-}
+
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-	#teengirl-button{display:none;}
-	#teengirl-nav{display:none;}
+
 		
 /* Styles */
-}
-
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1) {
-
-	body{
-		background: url("../images/background-repeat@2x.jpg") repeat;
-		background-size:101px auto;		
-	}
-	
-	.retina-safari article.thumb-article{
-		transition: none;
-		-moz-transition: none;
-		-webkit-transition: none;
-	}
-
-	.retina-safari article.thumb-article:hover{
-		-webkit-transform: none;
-		-moz-transform: none;
-		-ms-transform: none;   
-		 transform: none; 
-	}
-	
-	.retina-safari article.thumb-article.mellow:hover{
-		-webkit-transform: none;
-		-moz-transform: none;
-	}
-	
-	.retina-safari a img.side-project:hover{
-		transition: none;
-		-moz-transition: none;
-		-webkit-transition: none;
-	}
-	
-	.retina-safari .showcase-nav img.arrow {
-		transition: none;
-		-moz-transition: none;
-		-webkit-transition: none;
-	}
-	
-	.retina-safari a img{
-		-moz-transition: none;
-		-webkit-transition: none;
-		transition: none;
-	}
-	
-}
