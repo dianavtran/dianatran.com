@@ -265,6 +265,10 @@ a {
 		cursor: pointer;
 	}
 
+.aboutlink a:hover {
+	color: #fff;
+}
+
 /* Modifiers */
 
 .yellowbg {
