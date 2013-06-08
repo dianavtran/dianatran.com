@@ -1,3 +1,4 @@
 _site
 *.psd
 *.ai
+.DS_Store
