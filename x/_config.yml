@@ -1,4 +1,0 @@
-auto: true
-permalink: title
-markdown: rdiscount
-rdiscount extensions: [smart]
