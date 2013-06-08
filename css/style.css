@@ -1,38 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter);
 
+/* Layout */
+
 body, html {
 	font-family: "futura-pt", sans-serif;
 }
 
-.yellowbg {
-	background-color: #FEE032;
-}
-
-h1 {
-	font-size: 24px;
-	margin-bottom: 15px;
-	color: #444;
-	font-weight: 700;
-}
-
-h2 {
-	margin-bottom: 10px;
-	color: #444;
-}
-
-#blogright p {
-	border-bottom: 1px solid #FEE032;
-	padding-bottom: 35px;
-	margin-bottom: 35px;
-	line-height: 1.4;
-	color: #333;
-	font-family: "Bitter", serif;
-	font-weight: 400;
-}
-
 #topwrap {
 	min-height: 155px;
-	clear: both;
 }
 
 #yo {
@@ -41,15 +16,28 @@ h2 {
 	background-color: #FEE032;
 	padding: 14px 0 20px 0;
 	z-index: 1;
+	clear: both;
 }
 
-#blogcontent {
-	height: 600px;
-	background-color: #fff;
-	clear: both;
-	z-index: 99;
-	max-width: 400px;
-}
+	.fullwidthtext {
+		max-width: 740px;
+		text-align: left;
+		margin: 0 auto;
+		padding: 15px 30px;
+	}
+
+		.fullwidthtext p {
+			font-family: "Bitter", serif;
+			font-weight: 400;
+			font-size: 21px;
+			color: #333;
+			line-height: 1.3;
+		}
+
+		.fullwidthtext img {
+			float: left;
+			padding: 2px 40px 0 0;
+		}
 
 #wrapper {
 	margin: 0;
@@ -58,49 +46,28 @@ h2 {
 	position: relative;
 	z-index: 100;
 }
-	
-.fullwidthtext {
-	max-width: 740px;
-	text-align: left;
-	margin: 0 auto;
-	padding: 15px 30px;
-}
-
-.fullwidthtext p {
-	font-family: "Bitter", serif;
-	font-weight: 400;
-	font-size: 21px;
-	color: #333;
-	line-height: 1.3;
-	margin-top: -2px;
-}
-
-.fullwidthtext img {
-	float: left;
-	padding-right: 40px;
-}
 
 #contentwrapper {
 	max-width: 960px;
-	padding: 54px 15px 19px 15px;
+	padding: 54px 45px 19px 45px;
 	margin: 0 auto;
 	
 }
 
-#contentwrapper2 {
-	width: 960px;
-	padding: 54px 15px 19px 15px;
-	top: 0;
-	margin: 0 auto;
-	position: fixed;
-	z-index: 999;
+nav {
+	text-align: right;
+	float: right;
+	padding: 10px 10px 0 0;
 }
 
-#yellow {
-	width: 100%;
-	height: 12px;
+#pagewrapyo {
+	margin: 12px;
+	padding: 0 0 18px 0;
 	background-color: #FEE032;
-	margin-bottom: 2px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 #pagewrapyo2 {
@@ -111,6 +78,56 @@ h2 {
 	top: 0;
 	left: 0;
 	right: 0;
+}
+
+#things {
+	width: 100%;
+	border-top: solid 1px #777;
+	margin-top: 101px;
+	padding: 35px 0 30px 0;
+	text-align: center;
+}
+
+.projdescription {
+	position: absolute;
+	width: 90%;
+	z-index: 200;
+	height: 90%;
+	background-color: rgba(255, 255, 255, .97);
+	margin: 4.5%;
+	display: none;
+}
+
+	.projdescription p {
+		padding: 45% 0;
+		color:#222;
+	}
+
+	.projdescription a:hover {
+		color: #333;
+	}
+
+#projects {
+	width: 100%;
+	margin: 35px 0 0 5px;
+	line-height: 1.4;
+	padding: 30px 0 50px 0;
+	text-align: center;
+}
+
+	#projects p {
+		margin: -5px 0 25px 0;
+		font-family: "Bitter", serif;
+		font-size: 25px;
+		text-align: left;
+		color: #666;
+	}
+
+#yellow {
+	width: 100%;
+	height: 12px;
+	background-color: #FEE032;
+	margin-bottom: 2px;
 }
 
 .name {
@@ -125,7 +142,7 @@ h2 {
 	font-size: 50px;
 	float: left;
 	padding-left: 5px;
-	margin-top: -10px;
+	margin-top: -9px;
 }
 
 .nameproj {
@@ -144,66 +161,12 @@ h2 {
 	color: #555;
 }
 
-nav {
-	text-align: right;
-	float: right;
-	padding: 10px 10px 0 0;
-}
-
-.bbb {
-	color: #ccc;
-}
-
-.bbb a {
-	color: #ccc;
-	text-decoration: none;
-}
-
-.bbb a:hover {
-	color: #FEE032;
-}
-
-ul {
-	list-style: none;
-}
-
-li {
-	display: inline;
-	margin-left: 20px;
-	font-family: "futura-pt", sans-serif;
-	font-weight: 700;
-	color: #222;
-}
-
-li.addy {
-	float: left;
-	color: #888;
-	margin: -10px 15px 30px 0;
-	font-family: "Bitter", serif;
-	font-weight: 400;
-}
-
-img {
-	max-width: 100%;
-}
-
-a {
-	color: #666;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #FEE032;
-	text-decoration: none;
-	cursor: pointer;
-}
-
-#things {
-	width: 100%;
-	border-top: solid 1px #777;
-	margin-top: 101px;
-	padding: 35px 0 30px 0;
-	text-align: center;
+#blogcontent {
+	height: 600px;
+	background-color: #fff;
+	clear: both;
+	z-index: 99;
+	max-width: 400px;
 }
 
 #blogright {
@@ -212,87 +175,21 @@ a:hover {
 	text-align: left;
 }
 
+	#blogright p {
+		border-bottom: 1px solid #FEE032;
+		padding-bottom: 35px;
+		margin-bottom: 35px;
+		line-height: 1.4;
+		color: #333;
+		font-family: "Bitter", serif;
+		font-weight: 400;
+	}
+
 #blogleft {
 	width: 23%;
 	float: left;
 	margin-right: 5%;
 	text-align: left;
-}
-
-#projects {
-	width: 100%;
-	margin: 35px 0 0 5px;
-	line-height: 1.4;
-	padding: 30px 0 50px 0;
-	text-align: center;
-}
-
-#projects p {
-	margin: -5px 0 25px 0;
-	font-family: "Bitter", serif;
-	font-size: 25px;
-	text-align: left;
-	color: #666;
-}
-
-ul.shiny {
-	width: 100%;
-	min-height: 475px;
-}
-
-.right {
-	margin-right: 0 !important;
-}
-
-ul.shiny li.projects {
-	margin: 0 4% 3.4% 0;
-	display: inline-block;
-	width: 22%;
-	height: auto;
-	float: left;
-	position: relative;
-}
-
-.projdescription {
-	position: absolute;
-	width: 90%;
-	z-index: 200;
-	height: 90%;
-	background-color: rgba(255, 255, 255, .97);
-	margin: 4.5%;
-	display: none;
-}
-
-.projdescription p {
-	padding: 45% 0;
-	color:#222;
-}
-
-.projdescription a:hover {
-	color: #333;
-}
-
-.active {
-	display: block;
-}
-
-ul.shinier {
-	width: 100%;
-	padding-top: 15px;
-}
-
-.right {
-	padding-right: 0 !important;
-}
-
-ul.shinier li.badge {
-	padding-right: 2.4%;
-	display: inline-block;
-	width: 18%;
-	height: auto;
-	float: left;
-	margin: 0;
-	padding-bottom: 2.5%;
 }
 
 #footer {
@@ -303,16 +200,6 @@ ul.shinier li.badge {
 	color: #666;
 	font-weight: 400;
 	font-size: 15px;
-}
-
-#pagewrapyo {
-	margin: 12px;
-	padding: 0 0 18px 0;
-	background-color: #FEE032;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
 }
 
 #footer2 {
@@ -333,37 +220,88 @@ ul.shinier li.badge {
 	width: 100%;
 }
 
-.placeholder {
-	width: 100%;
-	background-color: #ededed;
-	min-height: 100px;
-	padding: 0;
-	margin-bottom: 25px;
+/* Typography */
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #444;
+	font-weight: 700;
 }
 
+h2 {
+	margin-bottom: 10px;
+	color: #444;
+}
+	
+	h2 img {
+		width: 15px;
+		height: 15px;
+		vertical-align: middle;
+		padding: 2px 5px 6px 0;
+	}	
 
-ul.shinier li.logo {
-	padding-right: 2.1%;
-	display: inline-block;
-	width: 23%;
-	height: auto;
-	float: left;
-	margin: 0;
-	padding-bottom: 2.5%;
+.bbb {
+	color: #ccc;
 }
 
-ul.shinier li.logo img{
-	border: 1px solid #ccc;
+	.bbb a {
+		color: #ccc;
+		text-decoration: none;
+	}
+
+		.bbb a:hover {
+			color: #FEE032;
+		}
+
+a {
+	color: #222;
+	text-decoration: none;
 }
 
-ul.shinier li.l1b {
-	padding-right: 3.0%;
-	display: inline-block;
-	width: 48.5%;
-	height: auto;
-	float: left;
-	margin: 0;
-	padding-bottom: 2.5%;
+	a:hover {
+		color: #FEE032;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+/* Modifiers */
+
+.yellowbg {
+	background-color: #FEE032;
+}
+
+.right {
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+}
+
+/* Images */
+
+img {
+	max-width: 100%;
+}
+
+.arrow {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin: -20px 0 0 -50px;
+	font-size: 40px;
+}
+
+	.arrow a {
+		color: #ccc;
+	}
+
+	.arrow a:hover {
+		color: #FEE032;
+	}
+
+.arrowright {
+	position: relative;
+	float:right;
+	margin: -20px -40px 0 0;
 }
 
 .star {
@@ -371,3 +309,78 @@ ul.shinier li.l1b {
 	text-align: middle;
 }
 
+/* Lists */
+
+ul {
+	list-style: none;
+}
+
+	ul.shiny {
+		width: 100%;
+		min-height: 475px;
+	}
+
+		ul.shiny li.projects {
+			margin: 0 4% 3.4% 0;
+			display: inline-block;
+			width: 22%;
+			height: auto;
+			float: left;
+			position: relative;
+		}
+
+li {
+	display: inline;
+	margin-left: 20px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	color: #222;
+}
+
+	li.addy {
+		float: left;
+		color: #888;
+		margin: -10px 15px 30px 0;
+		font-family: "Bitter", serif;
+		font-weight: 400;
+	}
+
+
+ul.shinier {
+	width: 100%;
+	padding-top: 15px;
+}
+
+	ul.shinier li.badge {
+		padding-right: 2.4%;
+		display: inline-block;
+		width: 18%;
+		height: auto;
+		float: left;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+	ul.shinier li.logo {
+		padding-right: 2.1%;
+		display: inline-block;
+		width: 23%;
+		height: auto;
+		float: left;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+		ul.shinier li.logo img{
+			border: 1px solid #ccc;
+		}
+
+	ul.shinier li.l1b {
+		padding-right: 3.0%;
+		display: inline-block;
+		width: 48.5%;
+		height: auto;
+		float: left;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
