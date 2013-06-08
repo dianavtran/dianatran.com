@@ -26,6 +26,96 @@
 and (max-device-width : 568px) 
 and (orientation : portrait) {
 
+	#topwrap {
+		min-height: 385px;
+	}
+
+	nav {
+		text-align: center;
+		margin-top: -35px;
+		font-size: 18px;
+		font-weight: 200;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 20px;
+		float: none;
+	}
+
+	#things {
+		padding: 20px 0 10px 0;
+		margin-top: 130px;
+	}
+
+	.name {
+		margin-top: 50px;
+	}
+
+	.arrow {
+		padding: 10px;
+		width: 25px;
+		height: 25px;
+		font-size: 30px;
+	}
+
+	.nameyo {
+		font-size: 40px;
+	}
+
+	li {
+		margin: 0 10px;
+	}
+
+	ul.shiny li.projects {
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		position: relative;
+		float: none;
+		margin: 0;
+		padding-bottom: 15px;
+	}
+
+	.right {
+		
+	}
+
+	ul.shinier li.l1b {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+	ul.shinier li.logo {
+		padding: 0 0 15px 0;
+		width: 100%;
+	}
+
+	.nameproj {
+		font-weight: 600;
+		font-size: 28px;
+		float: left;
+		padding-left: 5px;
+		margin: 25px 0 10px 0;
+		color: #121212;
+	}
+
+	li.addy {
+		text-align: left;
+		color: #888;
+		font-size: 12px;
+		margin: -3px 15px 20px 0;
+	}
+
+	#projects p {
+		margin: 0 0 15px 0;
+		font-size: 17px;
+	}
+
+	a {
+		font-weight: 400;
+	}
+
+
 }
 
 /* iPhone5 landscape */
@@ -33,23 +123,75 @@ and (orientation : portrait) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : landscape) { 
+	
+	#topwrap {
+		min-height: 255px;
+	}
+
+	nav {
+		text-align: center;
+		margin-top: -35px;
+		font-size: 20px;
+		font-weight: 200;
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 20px;
+		float: none;
+	}
 
 	#things {
-		width: 100%;
-		border-top: solid 1px #777;
-		margin-top: 101px;
 		padding: 20px 0 10px 0;
-		text-align: center;
+		margin-top: 130px;
+	}
+
+	.name {
+		margin-top: 57px;
+	}
+
+	.arrow {
+		padding: 10px;
+		width: 25px;
+		height: 25px;
+		font-size: 30px;
 	}
 
 	ul.shiny li.projects {
-		margin: 0 2.3%;
+		margin: 0 2.2% 2.6% 2.2%;
 		display: inline-block;
 		width: 45%;
 		height: auto;
 		position: relative;
 	}
-}
+
+	.right {
+		padding-right: 0;
+	}
+
+	ul.shinier li.l1b {
+		padding-right: 4%;
+		display: inline-block;
+		width: 48%;
+		height: auto;
+		float: left;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+	.nameproj {
+		font-weight: 600;
+		font-size: 40px;
+		float: left;
+		padding-left: 5px;
+		margin: 35px 0 10px 0;
+		color: #121212;
+	}
+
+	#projects p {
+		margin: 15px 0 15px 0;
+	}
+
+	a {
+		font-weight: 400;
+	}
 
 /* iPads (landscape) ----------- */
 @media only screen 
