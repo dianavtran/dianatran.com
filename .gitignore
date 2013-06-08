@@ -2,3 +2,4 @@ _site
 *.psd
 *.ai
 .DS_Store
+style2.css
