@@ -4,8 +4,30 @@ body, html {
 	font-family: "futura-pt", sans-serif;
 }
 
-h1, h2, h3 {
+.yellowbg {
+	background-color: #FEE032;
+}
 
+h1 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #444;
+	font-weight: 700;
+}
+
+h2 {
+	margin-bottom: 10px;
+	color: #444;
+}
+
+#blogright p {
+	border-bottom: 1px solid #FEE032;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	line-height: 1.4;
+	color: #333;
+	font-family: "Bitter", serif;
+	font-weight: 400;
 }
 
 #topwrap {
@@ -19,6 +41,14 @@ h1, h2, h3 {
 	background-color: #FEE032;
 	padding: 14px 0 20px 0;
 	z-index: 1;
+}
+
+#blogcontent {
+	height: 600px;
+	background-color: #fff;
+	clear: both;
+	z-index: 99;
+	max-width: 400px;
 }
 
 #wrapper {
@@ -57,11 +87,30 @@ h1, h2, h3 {
 	
 }
 
+#contentwrapper2 {
+	width: 960px;
+	padding: 54px 15px 19px 15px;
+	top: 0;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 999;
+}
+
 #yellow {
 	width: 100%;
 	height: 12px;
 	background-color: #FEE032;
 	margin-bottom: 2px;
+}
+
+#pagewrapyo2 {
+	margin: 12px;
+	padding: 0 0 22px 0;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .name {
@@ -76,7 +125,7 @@ h1, h2, h3 {
 	font-size: 50px;
 	float: left;
 	padding-left: 5px;
-	margin-top: -11px;
+	margin-top: -10px;
 }
 
 .nameproj {
@@ -157,6 +206,19 @@ a:hover {
 	text-align: center;
 }
 
+#blogright {
+	width: 72%;
+	float: left;
+	text-align: left;
+}
+
+#blogleft {
+	width: 23%;
+	float: left;
+	margin-right: 5%;
+	text-align: left;
+}
+
 #projects {
 	width: 100%;
 	margin: 35px 0 0 5px;
@@ -235,7 +297,7 @@ ul.shinier li.badge {
 
 #footer {
 	border-top: solid 1px #777;
-	padding-top: 20px;
+	padding: 20px 0 0 6px;
 	margin-top: 20px;
 	clear:both;
 	color: #666;
@@ -244,7 +306,7 @@ ul.shinier li.badge {
 }
 
 #pagewrapyo {
-	margin: 14px;
+	margin: 12px;
 	padding: 0 0 18px 0;
 	background-color: #FEE032;
 	position: absolute;
@@ -258,7 +320,16 @@ ul.shinier li.badge {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	min-height: 15px;
+	min-height: 12px;
+	width: 100%;
+}
+
+#footer3 {
+	background-color: #FEE032;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	min-height: 12px;
 	width: 100%;
 }
 
@@ -269,6 +340,7 @@ ul.shinier li.badge {
 	padding: 0;
 	margin-bottom: 25px;
 }
+
 
 ul.shinier li.logo {
 	padding-right: 2.1%;
