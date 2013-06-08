@@ -245,7 +245,7 @@ and (orientation : landscape) {
 		width: 30px;
 		height: 30px;
 		position: absolute;
-		margin: -13px 0 0 -43px;
+		margin: -32px 0 0 -43px;
 		font-size: 35px;
 		padding: 0 7px;
 	}
@@ -257,7 +257,7 @@ and (orientation : landscape) {
 .arrowright {
 		position: relative;
 		float:right;
-		margin: -13px -35px 0 0;
+		margin: -33px -35px 0 0;
 		padding: 0 7px;
 	}
 }
