@@ -1,0 +1,7 @@
+auto: true
+permalink: /blog/:year/:title
+paginate_path: /blog/:year/:title
+markdown: rdiscount
+rdiscount extensions: [smart]
+paginate: 5
+destination: _site/blog
