@@ -1,59 +1,12 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
- 
-    <title>Diana Tran</title>
-    <meta name="author" content="Diana Tran"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
- 	<link rel="stylesheet" href="css/style.css">
- 	<link rel="stylesheet" href="css/responsive.css">
- 	
- 	<script type="text/javascript" src="//use.typekit.net/gyx0zay.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+---
+layout: main
+---
 
- </head>
-
-<body class="yellowbg"> 
-    <div id="pagewrapyo2">
-        <div id="contentwrapper">
-                <div class="nameyo"><span class="bbb">Blooooooooog*</span></div>
-                <nav>
-                    <ul>
-                        <li class="bbb"><a href="index.html">Work</a></li>
-                        <li class="bbb">Blog</li>
-                        <li class="bbb"><a href="about.html">About</a></li>
-                    </ul>
-                </nav>
-                 <div id="things">
-                    <div id="blogleft">
-                        <h2><img src="blog/img/email.png" /><a href="mailto:hi@dianatran.com">hi@dianatran.com</a></h2>
-                        <h2><img src="blog/img/twitter.png" /><a href="twitter.com/dianavtran">@dianavtran</a></h2>
-                        <h2><span class="bbb">*Sporadic updates not guranteed to make sense.</span></h2>
-                    </div>  
-                    <div id="blogright">
-                    <h1>This is a title of a blog post!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus tortor sit amet sapien porttitor, ac malesuada mauris auctor. Sed ac tincidunt orci, at dapibus metus. Vestibulum non posuere lacus. Donec vel nisi ullamcorper, iaculis quam et, commodo ante. Maecenas consectetur lacus vel nibh fermentum, eu adipiscing augue imperdiet. Sed ullamcorper libero nec sapien porta, in tincidunt lorem lobortis. Donec sit amet mi non tellus scelerisque ultrices. Nullam et mauris justo. Nam nec lacus eget mauris sagittis tincidunt ut tempor arcu. Nulla lorem urna, luctus vitae eleifend in, pretium at turpis. Curabitur a est sit amet turpis pulvinar placerat. Maecenas sit amet ultrices ipsum, nec dapibus leo. Ut vel ante eu nibh imperdiet lobortis.
-                        </p>
-                    <h1>This is a title of a blog post!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus tortor sit amet sapien porttitor, ac malesuada mauris auctor. Sed ac tincidunt orci, at dapibus metus. Vestibulum non posuere lacus. Donec vel nisi ullamcorper, iaculis quam et, commodo ante. Maecenas consectetur lacus vel nibh fermentum, eu adipiscing augue imperdiet. Sed ullamcorper libero nec sapien porta, in tincidunt lorem lobortis. Donec sit amet mi non tellus scelerisque ultrices. Nullam et mauris justo. Nam nec lacus eget mauris sagittis tincidunt ut tempor arcu. Nulla lorem urna, luctus vitae eleifend in, pretium at turpis. Curabitur a est sit amet turpis pulvinar placerat. Maecenas sit amet ultrices ipsum, nec dapibus leo. Ut vel ante eu nibh imperdiet lobortis.
-                        </p>
-                    <h1>This is a title of a blog post!</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus tortor sit amet sapien porttitor, ac malesuada mauris auctor. Sed ac tincidunt orci, at dapibus metus. Vestibulum non posuere lacus. Donec vel nisi ullamcorper, iaculis quam et, commodo ante. Maecenas consectetur lacus vel nibh fermentum, eu adipiscing augue imperdiet. Sed ullamcorper libero nec sapien porta, in tincidunt lorem lobortis. Donec sit amet mi non tellus scelerisque ultrices. Nullam et mauris justo. Nam nec lacus eget mauris sagittis tincidunt ut tempor arcu. Nulla lorem urna, luctus vitae eleifend in, pretium at turpis. Curabitur a est sit amet turpis pulvinar placerat. Maecenas sit amet ultrices ipsum, nec dapibus leo. Ut vel ante eu nibh imperdiet lobortis.
-                        </p>
-                    </div>
-                </div>
-                <div id="footer3"></div>
-                <div id="footer">
-                    <a href="mailto:hi@dianatran.com">hi@dianatran.com</a> &bull; <a href="twitter.com/dianavtran">@dianavtran
-                </div>
-        </div>
-        </div>
-    </div>
- </body>
- </html>
-
- 
+{% for post in site.posts %}
+  <section>
+    <h2>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    {{ post.content }}
+  </section>
+{% endfor %}
