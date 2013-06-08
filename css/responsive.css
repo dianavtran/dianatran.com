@@ -47,7 +47,7 @@ and (orientation : portrait) {
 	}
 
 	.name {
-		margin-top: 50px;
+		margin-top: 56px;
 	}
 
 	.arrow {
@@ -107,9 +107,14 @@ and (orientation : portrait) {
 		margin: -3px 15px 20px 0;
 	}
 
+	#projects {
+		margin: 0 0 0 5px;
+	}
+
 	#projects p {
 		margin: 0 0 15px 0;
 		font-size: 17px;
+		clear: both;
 	}
 
 	a {
