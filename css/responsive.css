@@ -241,14 +241,29 @@ and (orientation : landscape) {
 	}
 
 	.nameproj {
-		font-size: 30px;
+		font-size: 20px;
 	}
 }
 
 /* Styles */
 
 
-/* iPads (portrait) ----------- */
+/* iPad (portrait) */
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 603px) 
+and (orientation : portrait) { 
+
+	.nameyo {
+		font-size: 10px;
+		margin: 25px 0;	
+	}
+
+	.nameproj {
+		font-size: 20px;
+	}
+}
 
 		
 /* Styles */
