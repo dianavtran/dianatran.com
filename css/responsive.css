@@ -360,7 +360,7 @@ and (orientation : portrait) {
 		padding-bottom: 20px;
 		float: none;
 		height: 22px;
-		width: 400px;
+		width: 100%;
 	}
 
 	#things {
