@@ -1,0 +1,393 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+/* Layout */
+
+body, html {
+	font-family: "futura-pt", sans-serif;
+}
+
+#topwrap {
+	min-height: 155px;
+	background-color: #FEE032;
+}
+
+#yo {
+	position: fixed;
+	width: 100%;
+	background-color: #FEE032;
+	padding: 14px 0 20px 0;
+	z-index: 1;
+	clear: both;
+}
+
+	.fullwidthtext {
+		max-width: 740px;
+		text-align: left;
+		margin: 0 auto;
+		padding: 15px 30px;
+	}
+
+		.fullwidthtext p {
+			font-family: "Bitter", serif;
+			font-weight: 400;
+			font-size: 21px;
+			color: #333;
+			line-height: 1.3;
+		}
+
+		.fullwidthtext img {
+			float: left;
+			padding: 2px 40px 0 0;
+		}
+
+#wrapper {
+	margin: 0;
+	padding: 0px 0 5px 0;
+	background-color: #fff;
+	position: relative;
+	z-index: 100;
+}
+
+#contentwrapper {
+	max-width: 960px;
+	padding: 56px 45px 19px 45px;
+	margin: 0 auto;
+	
+}
+
+nav {
+	text-align: right;
+	float: right;
+	padding: 10px 10px 0 0;
+}
+
+#pagewrapyo {
+	margin: 12px;
+	padding: 0 0 18px 0;
+	background-color: #FEE032;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#pagewrapyo2 {
+	margin: 12px;
+	padding: 0 0 22px 0;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#things {
+	width: 100%;
+	border-top: solid 1px #777;
+	margin-top: 101px;
+	padding: 35px 0 30px 0;
+	text-align: center;
+}
+
+.projdescription {
+	position: absolute;
+	width: 90%;
+	z-index: 200;
+	height: 90%;
+	background-color: rgba(255, 255, 255, .97);
+	margin: 4.5%;
+	display: none;
+}
+
+	.projdescription p {
+		padding: 45% 0;
+		color:#222;
+	}
+
+	.projdescription a:hover {
+		color: #333;
+	}
+
+#projects {
+	width: 100%;
+	margin: 35px 0 0 5px;
+	line-height: 1.4;
+	padding: 30px 0 50px 0;
+	text-align: center;
+}
+
+	#projects p {
+		margin: -5px 0 25px 0;
+		font-family: "Bitter", serif;
+		font-size: 25px;
+		text-align: left;
+		color: #666;
+	}
+
+#yellow {
+	width: 100%;
+	height: 12px;
+	background-color: #FEE032;
+}
+
+.name {
+	font-weight: 700;
+	font-size: 18px;
+	float: left;
+	padding-left: 5px;
+}
+
+.nameyo {
+	font-weight: 700;
+	font-size: 50px;
+	float: left;
+	padding-left: 5px;
+	margin-top: -9px;
+}
+
+.nameproj {
+	font-weight: 600;
+	font-size: 40px;
+	float: left;
+	padding-left: 5px;
+	margin-top: -5px;
+	color: #121212;
+}
+
+.title {
+	font-weight: 400;
+	line-height: 1.3;
+	font-size: 17px;
+	color: #555;
+}
+
+#blogcontent {
+	height: 600px;
+	background-color: #fff;
+	clear: both;
+	z-index: 99;
+	max-width: 400px;
+}
+
+#blogright {
+	width: 72%;
+	float: left;
+	text-align: left;
+}
+
+article {
+	border-bottom: 1px solid #FEE032;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	line-height: 1.4;
+	color: #333;
+	font-family: "Bitter", serif;
+	font-weight: 400;
+}
+
+#blogleft {
+	width: 23%;
+	float: left;
+	margin-right: 5%;
+	text-align: left;
+}
+
+#footer {
+	border-top: solid 1px #777;
+	padding: 20px 0 0 6px;
+	margin-top: 20px;
+	clear:both;
+	color: #666;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+#footer2 {
+	background-color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	min-height: 12px;
+	width: 100%;
+}
+
+#footer3 {
+	background-color: #FEE032;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	min-height: 12px;
+	width: 100%;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	color: #444;
+	font-weight: 700;
+	font-family: "futura-pt", sans-serif;
+}
+
+h2 {
+	margin-bottom: 10px;
+	color: #444;
+}
+	
+	h2 img {
+		width: 15px;
+		height: 15px;
+		vertical-align: middle;
+		padding: 2px 5px 6px 0;
+	}	
+
+.bbb {
+	color: #ccc;
+}
+
+	.bbb a {
+		color: #ccc;
+		text-decoration: none;
+	}
+
+		.bbb a:hover {
+			color: #FEE032;
+		}
+
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+	a:hover {
+		color: #FEE032;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+.aboutlink a:hover {
+	color: #fff;
+}
+
+/* Modifiers */
+
+.yellowbg {
+	background-color: #FEE032;
+}
+
+.right {
+	padding-right: 0 !important;
+	margin-right: 0 !important;
+}
+
+/* Images */
+
+img {
+	max-width: 100%;
+}
+
+.arrow {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin: -20px 0 0 -50px;
+	font-size: 40px;
+}
+
+	.arrow a {
+		color: #ccc;
+	}
+
+	.arrow a:hover {
+		color: #FEE032;
+	}
+
+.arrowright {
+	position: relative;
+	float:right;
+	margin: -20px -40px 0 0;
+}
+
+.star {
+	color: #FEE032;
+	text-align: middle;
+}
+
+/* Lists */
+
+ul {
+	list-style: none;
+}
+
+	ul.shiny {
+		width: 100%;
+		min-height: 475px;
+	}
+
+		ul.shiny li.projects {
+			margin: 0 4% 3.4% 0;
+			display: inline-block;
+			width: 22%;
+			height: auto;
+			float: left;
+			position: relative;
+		}
+
+li {
+	display: inline;
+	margin-left: 20px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 700;
+	color: #222;
+}
+
+	li.addy {
+		float: left;
+		color: #888;
+		margin: -10px 15px 30px 0;
+		font-family: "Bitter", serif;
+		font-weight: 400;
+	}
+
+
+ul.shinier {
+	width: 100%;
+	padding-top: 15px;
+}
+
+	ul.shinier li.badge {
+		padding-right: 2.4%;
+		display: inline-block;
+		width: 18%;
+		height: auto;
+		float: left;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+	ul.shinier li.logo {
+		padding-right: 2.1%;
+		display: inline-block;
+		width: 23%;
+		height: auto;
+		float: left;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+		ul.shinier li.logo img{
+			border: 1px solid #ccc;
+		}
+
+	ul.shinier li.l1b {
+		padding-right: 3.0%;
+		display: inline-block;
+		width: 48.5%;
+		height: auto;
+		float: left;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+	

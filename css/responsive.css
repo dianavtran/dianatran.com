@@ -356,6 +356,7 @@ and (orientation : portrait) {
 		font-weight: 200;
 		border-bottom: 1px solid #777;
 		padding-bottom: 20px;
+		float: none;
 	}
 
 	#footer {
@@ -416,7 +417,7 @@ and (orientation : portrait) {
 
 	.nameyo {
 		font-size: 50px;
-		margin: 25px 0;	
+		margin: 50px 0 0 0;	
 	}
 
 	#projects p {
