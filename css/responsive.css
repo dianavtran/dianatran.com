@@ -339,8 +339,7 @@ and (orientation : portrait) {
 
 @media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
 
-/*
-@media screen and (max-width: 600px) { 
+/*@media screen and (max-width: 600px) { 
 */
 	#topwrap {
 		min-height: 205px;
@@ -354,7 +353,7 @@ and (orientation : portrait) {
 
 	nav {
 		text-align: center;
-		margin-top: -45px;
+		margin: -45px 0 30px 0;
 		font-size: 20px;
 		font-weight: 200;
 		border-bottom: 1px solid #777;
