@@ -340,7 +340,7 @@ and (orientation : portrait) {
 
 @media only screen and (max-width : 600px) and (device-width : 800px){
 
-     	.nameyo {
+     .nameyo {
 		font-size: 50px;
 	}
 
@@ -429,7 +429,6 @@ and (orientation : portrait) {
 		font-weight: 400;
 	}
 
-}
 }
 		
 /* Styles */
