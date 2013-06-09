@@ -363,6 +363,10 @@ and (orientation : portrait) {
 		float: none;
 	}
 
+	#footer {
+		font-size: 15px;
+	}
+
 	#things {
 		padding: 20px 0 10px 0;
 		margin-top: 130px;
