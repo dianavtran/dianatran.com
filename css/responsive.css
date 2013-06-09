@@ -358,8 +358,6 @@ and (orientation : portrait) {
 		border-bottom: 1px solid #777;
 		padding-bottom: 20px;
 		float: none;
-		position: relative;
-		z-index: 999;
 	}
 
 	#things {
@@ -407,10 +405,10 @@ and (orientation : portrait) {
 
 	.nameproj {
 		font-weight: 600;
-		font-size: 30px;
+		font-size: 28px;
 		float: left;
 		padding-left: 5px;
-		margin: 35px 0 10px 0;
+		margin: 35px 0 5px 0;
 		color: #121212;
 	}
 
