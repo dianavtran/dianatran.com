@@ -227,6 +227,7 @@ and (orientation : landscape) {
 	#footer {
 		font-size: 12px;
 	}
+}
 
 /* iPad (landscape) */
 
@@ -244,9 +245,6 @@ and (orientation : landscape) {
 		font-size: 20px;
 	}
 }
-
-/* Styles */
-
 
 /* iPad (portrait) */
 
