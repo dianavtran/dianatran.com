@@ -256,7 +256,7 @@ and (orientation : portrait) {
 	}
 
 	#topwrap {
-		min-height: 205px;
+		min-height: 190px;
 	}
 
 	nav {
@@ -408,7 +408,7 @@ and (orientation : portrait) {
 
 	.nameproj {
 		font-weight: 600;
-		font-size: 40px;
+		font-size: 36px;
 		float: left;
 		padding-left: 5px;
 		margin: 30px 0 10px 0;
