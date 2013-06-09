@@ -337,10 +337,9 @@ and (orientation : portrait) {
 
 /* Nexus 7 potrait */
 
-/*@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+/*@media screen and (max-width: 600px) { 
 */
-@media screen and (max-width: 600px) { 
-
 	#topwrap {
 		min-height: 205px;
 	}
