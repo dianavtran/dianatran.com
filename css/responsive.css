@@ -359,6 +359,7 @@ and (orientation : portrait) {
 		border-bottom: 1px solid #777;
 		padding-bottom: 20px;
 		float: none;
+		height: 22px;
 	}
 
 	#things {
