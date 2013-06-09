@@ -337,7 +337,99 @@ and (orientation : portrait) {
 
 /* Nexus 7 potrait */
 
-@media screen and (max-width: 600px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+@media screen and (device-width: 600px) and (device-height: 905px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+
+	#topwrap {
+		min-height: 205px;
+	}
+
+	.arrow {
+		padding: 7px;
+		font-size: 32px;
+		margin-top: -4px;
+	}
+
+	nav {
+		text-align: center;
+		margin: -45px 0 30px 0;
+		font-size: 20px;
+		font-weight: 200;
+		border-bottom: 1px solid #777;
+		padding-bottom: 20px;
+		float: none;
+	}
+
+	#things {
+		padding: 20px 0 10px 0;
+		margin-top: 130px;
+	}
+
+	.name {
+		margin-top: 49px;
+	}
+
+	li.addy {
+		text-align: left;
+		color: #888;
+		font-size: 12px;
+		margin: -3px 15px 20px 0;
+	}
+
+	ul.shiny li.projects {
+		margin: 0 2.2% 2.6% 2.2%;
+		display: inline-block;
+		width: 45%;
+		height: auto;
+		position: relative;
+	}
+
+	.right {
+		padding-right: 0;
+	}
+
+	ul.shinier li.logo {
+		margin: 0 2.1% 2.6% 0%;
+		display: inline-block;
+		width: 45%;
+		height: auto;
+		float: left;
+	}
+
+	ul.shinier li.l1b {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding-bottom: 2.5%;
+	}
+
+	.nameproj {
+		font-weight: 600;
+		font-size: 27px;
+		float: left;
+		padding-left: 5px;
+		margin: 40px 0 0 0;
+		color: #121212;
+	}
+
+	.nameyo {
+		font-size: 50px;
+		margin: 25px 0;	
+	}
+
+	#projects p {
+		margin: 15px 0 20px 0;
+	}
+
+	a {
+		font-weight: 400;
+	}
+}
+
+
+
+/* Nexus 7 landscape */
+
+@media screen and (device-width: 905px) and (device-height: 600px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
 /*@media screen and (max-width: 600px) { 
 */
 	#topwrap {
