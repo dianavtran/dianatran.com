@@ -356,7 +356,7 @@ and (orientation : portrait) {
 		font-weight: 200;
 		border-bottom: 1px solid #777;
 		padding-bottom: 20px;
-		float: none;
+		clear: both;
 	}
 
 	#things {
