@@ -66,7 +66,8 @@ body, html {
 	max-width: 960px;
 	padding: 56px 45px 19px 45px;
 	margin: 0 auto;
-	
+	min-height: 100%;
+	height: auto;
 }
 
 nav {
@@ -83,6 +84,8 @@ nav {
 	top: 0;
 	left: 0;
 	right: 0;
+	min-height: 100%;
+	height: auto;
 }
 
 #pagewrapyo2 {
@@ -184,7 +187,7 @@ nav {
 }
 
 #blogright {
-	width: 72%;
+	width: 74%;
 	float: left;
 	text-align: left;
 }
@@ -193,14 +196,14 @@ article {
 	border-bottom: 1px solid #FEE032;
 	padding-bottom: 35px;
 	margin-bottom: 35px;
-	line-height: 1.4;
+	line-height: 1.45;
 	color: #333;
 	font-family: "Bitter", serif;
 	font-weight: 400;
 }
 
 #blogleft {
-	width: 23%;
+	width: 21%;
 	float: left;
 	margin-right: 5%;
 	text-align: left;
@@ -256,8 +259,15 @@ h2 {
 		padding: 2px 5px 6px 0;
 	}	
 
+.aaa {
+	color: #ccc;
+	line-height: 1.2;
+	font-size: 12px;
+}
+
 .bbb {
 	color: #ccc;
+	line-height: 1.2;
 }
 
 	.bbb a {
@@ -268,6 +278,11 @@ h2 {
 		.bbb a:hover {
 			color: #FEE032;
 		}
+
+article p a {
+	color: #888;
+	font-style: italic;
+}
 
 a {
 	color: #222;
@@ -284,6 +299,22 @@ a {
 	color: #fff;
 }
 
+blockquote {
+	border-left: 3px solid #fEE032;
+	margin-left: 0px;
+	padding-left: 25px;
+	color: #222;
+}
+
+blockquote p {
+	display:block;
+	font-size: 16px;
+	color: #555;
+}
+
+article {
+	font-size: 17px;
+}
 /* Modifiers */
 
 .yellowbg {
@@ -326,6 +357,15 @@ img {
 .star {
 	color: #FEE032;
 	text-align: middle;
+}
+
+.badge img {
+	max-width: 160px;
+	width: 100%;
+}
+
+article img {
+	
 }
 
 /* Lists */
@@ -378,7 +418,31 @@ ul.shinier {
 		float: left;
 		margin: 0;
 		padding-bottom: 2.5%;
+		text-align: left;
+		position:relative;
 	}
+
+		.circle {
+			border-radius:50%;
+			font-size:20px;
+			color:#fff;
+			text-align:center;
+			background:#000;	
+			z-index: 200;
+			display: table;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 95%;
+		}
+
+		.circle p {
+			font-size: 14px;
+			line-height: 1;
+			display: table-cell;
+			vertical-align: middle;
+			padding: 20px;
+		}
 
 	ul.shinier li.logo {
 		padding-right: 2.1%;
