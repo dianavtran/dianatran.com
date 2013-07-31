@@ -43,7 +43,7 @@ and (orientation : portrait) {
 
 	.nameyo {
 		font-size: 50px;
-		margin: 25px 0;	
+		margin: 39px 0;	
 	}
 
 	.arrow {
@@ -51,10 +51,6 @@ and (orientation : portrait) {
 		width: 25px;
 		height: 25px;
 		font-size: 30px;
-	}
-
-	.nameyo {
-		font-size: 40px;
 	}
 
 	li {
@@ -120,8 +116,32 @@ and (orientation : portrait) {
 	#footer {
 		font-size: 14px;
 	}
+	
+	#blogleft {
+		float: left;
+		text-align: left;
+		display: none;
+		clear: both;
+	}
 
-}
+	#blogright {
+		width: 100%;
+		text-align: left;
+		display: block;
+	}
+
+	article h1 {
+		font-size: 23px;
+		line-height: 1.35;
+	}
+
+	#contentwrapper {
+		max-width: 960px;
+		padding: 56px 35px 19px 35px;
+		margin: 0 auto;
+		min-height: 100%;
+		height: auto;
+	}
 
 /* iPhone / Nexus landscape */
 @media only screen 
