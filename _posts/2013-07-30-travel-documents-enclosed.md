@@ -30,4 +30,4 @@ It took me a few days to make it to Code for America to pick up my mysterious ma
 
 At some point, I used Google Goggles to reverse image search some of the pages. It was a nice touch to "wrap" all the pages with the [Voynich Manuscript](http://en.wikipedia.org/wiki/Voynich_manuscript), a book that has never been deciphered. That was the moment I realized that I had been epically trolled.
 
-<br>Nick ([@mapmeld](http://twitter.com/mapmeld)), well done. This means war.
+<br>Nick (<a href="http://twitter.com/mapmeld">@mapmeld</a>), well done. This means war.
