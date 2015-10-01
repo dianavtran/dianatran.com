@@ -63,7 +63,7 @@ h5 {
 	font-weight: 900;
 	margin: 0 auto 30px auto;
 	color: #6300FF;
-	font-size: 48px;
+	font-size: 60px;
 	display: block;
 }
 
@@ -103,7 +103,7 @@ li {
 	display: inline;
 	color: #5B20E6;
 	font-weight: 900;
-	font-size: 24px;
+	font-size: 28px;
 	margin-left: 40px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -237,34 +237,64 @@ li:last-child{
 	margin-bottom: 10px;
 	float: left;
 }
+	.item img {
+		width: 800px;
+	}
+
 
 .item.w2 {
 	width: 800px;
 }
+	.item.w2 img {
+		width: 800px;
+	}
+
 
 .item.w3 {
 	width: 800px;
 }
+	.item.w3 img {
+		width: 800px;
+	}
+
 
 .item.h1 {
-	height: 195px;
+	height: auto;
 }
+	.item.h1 img {
+		height: auto;
+	}
+
 
 .item.h2 {
-	height: 250px;
+	height: auto;
 }
+	.item.h2 img {
+		height: auto;
+	}
+
 
 .item.h300 {
-	height: 300px;
+	height: auto;
 }
+	.item.h300 img {
+		height: auto;
+	}
+
 
 .item.h3 {
-	height: 400px;
+	height: auto;
 }
+	.item.h3 img {
+		height: auto;
+	}
 
 .item.h4 {
-	height: 600px;
+	height: auto;
 }
+	.item.h4 img {
+		height: auto;
+	}
 
 .x {
 	width: 24px;

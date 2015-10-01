@@ -230,34 +230,64 @@ li {
 	margin-bottom: 10px;
 	float: left;
 }
+	.item img {
+		width: 192px;
+	}
+
 
 .item.w2 {
 	width: 394px;
 }
+	.item.w2 img {
+		width: 394px;
+	}
+
 
 .item.w3 {
 	width: 596px;
 }
+	.item.w3 img {
+		width: 596px;
+	}
+
 
 .item.h1 {
 	height: 195px;
 }
+	.item.h1 img {
+		height: 195px;
+	}
+
 
 .item.h2 {
 	height: 250px;
 }
+	.item.h2 img {
+		height: 250px;
+	}
+
 
 .item.h300 {
 	height: 300px;
 }
+	.item.h300 img {
+		height: 300px;
+	}
+
 
 .item.h3 {
 	height: 400px;
 }
+	.item.h3 img {
+		height: 400px;
+	}
 
 .item.h4 {
 	height: 600px;
 }
+	.item.h4 img {
+		height: 600px;
+	}
 
 .x {
 	width: 24px;
