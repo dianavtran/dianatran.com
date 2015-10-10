@@ -1,11 +1,12 @@
 //masonry
 
-$('.container').masonry({
-  // options
-  itemSelector: '.item',
-  columnWidth: 192,
-  gutter: 10,
-  isFitWidth: true,
+$(window).load(function(){
+  $('#container').masonry({
+      itemSelector: '.item',
+      columnWidth: 192,
+      gutter: 10,
+      isFitWidth: true,
+  });
 });
 
 //work about hover
