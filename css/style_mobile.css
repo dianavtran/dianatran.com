@@ -25,15 +25,16 @@ footer {
 h1 {
 	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 400;
-	font-size: 24px;
-	margin: 24px 0;
+	font-size: 36px;
+	margin: 64px 0;
+	color: #444;
 }
 
 h2 {
 	font-size: 14px;
 	font-weight: 900;
 	text-transform: uppercase;
-	color: #190040;
+	color: #000;
 	opacity: .6;
 	margin: 0;
 	letter-spacing: 1px;
@@ -44,7 +45,7 @@ h2 {
 
 h3 {
 	font-family: 'Roboto Mono', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #fff;
 	margin: 40px 0 4px 0;
@@ -52,7 +53,7 @@ h3 {
 
 h4 {
 	font-family: 'Roboto Mono', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #ccc;
 	margin: 0;
@@ -63,7 +64,7 @@ h5 {
 	font-weight: 900;
 	margin: 0 auto 30px auto;
 	color: #6300FF;
-	font-size: 60px;
+	font-size: 64px;
 	display: block;
 }
 
@@ -71,9 +72,9 @@ p {
 	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	line-height: 26px;
-	margin-bottom: 40px;
-	color: #444;
+	line-height: 54px;
+	margin: 50px 0 80px 0;
+	color: #222;
 }
 
 a {
@@ -133,7 +134,7 @@ li:last-child{
 
 .contact li {
 	margin: 0;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .contact li:before {
@@ -174,16 +175,17 @@ li:last-child{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 52%;
+	width: 70%;
 	margin: 0 auto;
+	height: 80%;
 }
 
 .leftSide {
-	max-width: 50%;
-	height: 100%;
+	width: 100%; 
 	margin: 0;
-	display: inline-block;
 	position: relative;
+	float: left;
+	max-width: 100%;
 }
 
 .overlay {
@@ -191,11 +193,11 @@ li:last-child{
 }
 
 .rightSide {
-	max-width: 50%;
-	height: 100%;
+	width: 100%; 
 	margin: 0;
-	float: right;
-	display: inline-block;
+	position: relative;
+	float: left;
+	max-width: 100%;
 }
 
 .expBlock {
@@ -210,8 +212,8 @@ li:last-child{
 .blurb p {
 	color: #fff;
 	margin: 0;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 34px;
+	line-height: 48px;
 }
 
 #wrapper {
