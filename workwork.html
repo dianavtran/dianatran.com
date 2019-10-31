@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en" style="background: #4B89FF">
+<head>
+ <meta charset="utf-8">
+ <title>meh</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="lightGallery.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="lightgallery.min.js"></script>
+ <script src="caption.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+  <div id="contentWrapper" class="workPage">
+    <div class="workPageWrapper">
+      <div class="nav">
+        <span class="homeLink">home</span>
+        <span class="bullet"></span>
+        <span class="workworkLink">work work</span>
+        <span class="bullet"></span>
+        <span class="notworkworkLink">not work work</span>
+        <span class="bullet"></span>
+        <span class="aboutLink">about</span>
+      </div>
+      <div class="workworkContent">
+        <h1>Selected work from the day job</h1>
+        <div id="fixed-size" class="workContainer">
+            <div class="item1" data-src="img/holidoodle.gif" data-sub-html="Holi doodle">
+              <img class="caption" src="img/holidoodle.gif" data-caption="Holi doodle">
+            </div>
+            <div class="item1" data-src="img/weather.png" data-sub-html="Google Weather App UI and color system. Art/Art Direction by Sophie Diao">
+              <img class="caption" src="img/weatherapp_tn.jpg" data-caption="Google Weather App">
+            </div>
+            <div class="item1" data-src="img/weatherIcons.png" data-sub-html="Google Weather Icons">
+              <img class="caption" src="img/weathericons_tn.png" data-caption="Google Weather Icons">
+            </div>
+            <div class="item1" data-src="img/backtothemoon.png" data-sub-html="Back to the Moon landing page · <a href='https://atap.google.com/intl/st/spotlight-stories/melies/' target='blank'>Visit site</a>">
+              <img class="caption" src="img/backtothemoon_tn.jpg" data-caption="Back to the Moon landing page">
+            </div>
+            <div class="item1" data-src="img/earthday_tn.jpg" data-sub-html="Google Earth Day doodle. Art by Kevin Laughlin · <a href='https://www.google.com/doodles/earth-day-2019' target='blank'>Play doodle</a>">
+              <img class="caption" src="img/earthday_tn.jpg" data-caption="Google Earth Day doodle">
+            </div>
+            <div class="item1" data-src="img/ghoulduel.png" data-sub-html="Great Ghoul Duel doodle UX and UI. Art by Nate Swinehart · <a href='https://www.google.com/doodles/halloween-2018' target='blank'>Play doodle</a>">
+              <img class="caption" src="img/ghoulduel.png" data-caption="Great Ghoul Duel doodle">
+            </div>
+            <div class="item1" data-src="img/ageofsail.jpg" data-sub-html="Age of Sail landing page · <a href='https://atap.google.com/intl/st/spotlight-stories/age-of-sail/' target='blank'>Visit site</a>">
+              <img class="caption" src="img/ageofsail_tn.jpg" data-caption="Age of Sail landing page">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="x"></div>
+  <div id="about">
+  	<div class="textBlock2">
+      <div class="shareOverlay">
+        <div><a href="http://twitter.com/dianavtran" target="_blank">Twitter</a></div>
+        <div><a href="http://instagram.com/divworkshop" target="_blank">Insta</a></div>
+        <div class="email">
+          <a href="mailto:hi@dianatran.com">Email</a>
+          <div class="emailPopWrapper">
+            <div class="bubble">
+              hi@dianatran.com
+            </div>
+          </div>
+        </div>
+      </div>
+  		<div class="blurb">
+  			<p>I'm a designer at Google working on <a href="http://google.com/doodles" target="_blank">Doodles</a>. Outside of my day job, I'm potter making work as <a href="#">DIV Workshop</a>. I also dabble in making video games, 3D modeling, illustration, and numerous other hobbies.</p>
+  		</div>
+  		<div class="leftSide overlay">
+  			<h2>Current</h2>
+  			<div class="expBlock">
+  				<h3>Google</h3>
+  				<h4>Visual Designer, 2013 – Present</h4>
+  			</div>
+  			<h2>Previously</h2>
+  			<div class="expBlock">
+  				<h3>Code for America</h3>
+  				<h4>Fellow, City & County of Honolulu, 2012</h4>
+  			</div>
+  			<div class="expBlock">
+  				<h3>United States Marine Corps</h3>
+  				<h4>Sergeant, Intelligence Analyst, 2004 – 2010</h4>
+  			</div>
+  		</div>
+  		<div class="rightSide overlay">
+  			<h2>Education</h2>
+  			<div class="expBlock">
+  				<h3>Savannah College of Art & Design</h3>
+  				<h4>Graduate studies, Graphic Design</h4>
+  			</div>
+  			<div class="expBlock">
+  				<h3>University of Texas at Arlington</h3>
+  				<h4>BFA, Visual Communication</h4>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+
+</div>
+
+
+</body>
+
+<script>
+    $(document).ready(function() {
+      $('.workPage').fadeIn(600);
+      $('#fixed-size').lightGallery({
+          width: '1080px',
+          height: '960px',
+          mode: 'lg-fade',
+          animateThumb: true,
+          counter: false,
+          download: false,
+          startClass: '',
+          enableSwipe: true,
+          enableDrag: false,
+          speed: 300,
+      });
+      $('img.caption').captionjs({
+          'class_name'      : 'captionjs', // Class name for each <figure>
+          'schema'          : true,        // Use schema.org markup (i.e., itemtype, itemprop)
+          'mode'            : 'animated',   // default | stacked | animated | hide
+          'debug_mode'      : false,       // Output debug info to the JS console
+          'force_dimensions': false,        // Force the dimensions in case they cannot be detected (e.g., image is not yet painted to viewport)
+          'is_responsive'   : false,       // Ensure the figure and image change size when in responsive layout. Requires a container to control responsiveness!
+          'inherit_styles'  : false        // Have the caption.js container inherit box-model properties from the original image
+      });
+    })
+
+    $('.homeLink').on('click', function() {
+      $('html').css('background','#6EE2C8');
+      $('.workPage').fadeOut(300);
+      setTimeout(function() {
+        window.location.href = 'index.html';
+      }, 500);
+    })
+
+    // $('.workworkLink').on('click', function() {
+    //   $('#wrapper').css('background', '#4B89FF');
+    //   $('.workPage').fadeOut('fast');
+    //   setTimeout(function() {
+    //     window.location.href = 'workwork.html';
+    //   }, 800);
+    // })
+
+    $('.workworkLink').css('color','#ccc');
+
+    $('.notworkworkLink').on('click', function() {
+      $('html').css('background','#FFC19A');
+      $('.workPage').fadeOut(300);
+      setTimeout(function() {
+        window.location.href = 'notworkwork.html';
+      }, 500);
+    })
+
+    $('.about, .aboutLink').click(function() {
+    	$('#about').fadeIn(200);
+    	$('.x').fadeIn(300);
+    });
+
+    $('.x').click(function() {
+    	$('#about').fadeOut(300);
+    	$('.x').hide();
+    });
+
+    $('#about').click(function() {
+    	$('#about').fadeOut(300);
+    	$('.x').hide();
+    });
+
+
+
+</script>
+</html>

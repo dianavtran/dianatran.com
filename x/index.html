@@ -1,110 +1,98 @@
 <!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
- 
-    <title>Diana Tran</title>
-    <meta name="author" content="Diana Tran"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
- 	<link rel="stylesheet" href="css/style.css">
- 	<link rel="stylesheet" href="css/responsive.css">
- 	
- 	
- 	<script type="text/javascript" src="//use.typekit.net/gyx0zay.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-	<script type="text/javascript">
 
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-20183993-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
-	<script>
- 	   			$(document).ready(function() {
- 	   				window.scrollTo(0,$('#wrapper').offset().top);
- 	   			});
- 	</script>
- 	<script>
- 				$(document).ready(function () {
-   				if ((/iPhone|iPod|iPad|Android|BlackBerry/).test(navigator.userAgent) == false) { 
-   					 $('li.projects').hover(function(){
-       					$('.projdescription', this).show();
-   					 		},function(){
-				        $('.projdescription', this).hide();
-				     });
-				}
-				});
-	</script>
-
- </head>
-
- <body>
- 	<div id="topwrap">
- 		<div id="yo clearfix">
- 			<div class="fullwidthtext"><img src="img/monogram.png" /><p>Diana is a designer working at Google on the Search team. Previously, she was a Code for America fellow, spent some time in the Marines, and studied at the University of Texas at Arlington as well as Savannah College of Art + Design. </p>
- 			</div>
- 			<div style='clear:both;'></div>
- 		</div>
- 	</div>
- 		<div id="wrapper">
- 			<div id="yellow">&nbsp;</div>
- 			<div id="contentwrapper">
-	 			<div class="name">Diana V. Tran<br /><span class="title">Graphic Designer</span></div>
-	 			<nav>
-	 				<ul>
-	 					<li><a href="index.html">Work</a></li>
-	 					<li><a href="../blog">Blog</a></li>
-	 					<li><a href="about.html">About</a></li>
-	 				</ul>
-	 			</nav>
-	 			<div id="things">
-	 				<ul class="shiny">
-		 				<li class="projects"><a href="democracy">
-		 					<div class="projdescription">
-		 						<p>Democracy Day</p>
-		 					</div><img src="img/thumb_democracy.jpg" /></a>
-		 				</li>
-		 				<li class="projects"><a href="barely-a-vapor">
-		 					<div class="projdescription"><p>Barely a Vapor</p>
-		 					</div><img src="img/thumb_barely-a-vapor.jpg" /></a>
-		 				</li>
-		 				<li class="projects"><a href="overachiever">
-		 					<div class="projdescription"><p>Overachiever</p>
-		 					</div><img src="img/thumb_overachiever.png" /></a>
-		 				</li>
-		 				<li class="right projects"><a href="flying-rhino">
-		 					<div class="projdescription"><p>Flying Rhino</p>
-		 					</div><img src="img/thumb_flying-rhino.jpg" /></a>
-		 				</li>
-		 				<li class="projects"><a href="rocket-science">
-		 					<div class="projdescription"><p>Rocket Science Design</p>
-		 					</div><img src="img/thumb_rsd.jpg" /></a>
-		 				</li>
-		 				<li class="projects"><a href="cards">
-		 					<div class="projdescription"><p>Diana Playing Cards</p>
-		 					</div><img src="img/thumb_cards.jpg" /></a>
-		 				</li>
-		 				<li class="projects"><a href="logos"><div class="projdescription"><p>Logos</p>
-		 				</div><img src="img/thumb_logos.png" /></a>
-		 				</li>
-		 			</ul>
-	 			</div>
-	 			<br><br><br><br><br><br><br><br><br>
-	 			<div id="footer">
-	 				<a href="mailto:hi@dianatran.com">hi@dianatran.com</a> &bull; <a href="http://twitter.com/dianavtran">@dianavtran</a>
-	 			</div>
-	 		</div>
-	 	</div>
-
-
-
- </body>
- </html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Diana Tran</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" media="only screen and (max-device-width: 667px)" href="css/style_mobile.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/masonry.pkgd.min.js"></script>
+		<script src="js/jquery.caption.min.js"></script>
+		<script src="js/jquery.tooltipster.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<h5>Howdy, I'm Diana</h5>
+			<ul>
+				<li><a href="index.html">Work</a></li>
+				<li><a href="#" class="about">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</header>
+		<div class="x"></div>
+		<div id="wrapper">
+			<div class="container">
+				<div class="item w2 h300">
+					<a href="work/chillaxin/"><img class="caption" src="img/tn_chillaxin.jpg" data-caption="Chillaxin'"></a>
+				</div>
+		  		<div class="item w2 h300">
+		  			<a href="work/mario/"><img class="caption" src="img/tn_mario.gif" data-caption="Google Search Super Mario easter egg"></a>
+		  		</div>
+		  		<div class="item w3 h3">
+		  			<a href="work/barely_a_vapor/"><img class="caption" src="img/tn_barely_a_vapor.jpg" data-caption="Barely a Vapor"></a>
+		  		</div>
+		  		<div class="item h1">
+		  			<a href="work/logos/"><img class="caption" src="img/tn_logos.jpg" data-caption="Logos"></a>
+		  		</div>
+		  		<div class="item h3">
+		  			<a href="work/flying_rhino/"><img class="caption" src="img/tn_flying_rhino.jpg" data-caption="Flying Rhino"></a>
+		  		</div>
+		  		<div class="item w2 h4">
+		  			<a href="#"><img class="caption" src="img/tn_book_covers.jpg" data-caption="Book covers"></a>
+		  		</div>
+		  		<div class="item h1">
+		  			<a href="#"><img class="caption" src="img/tn_civics_garden.jpg" data-caption="Civics Garden"></a>
+		  		</div>
+		  		<div class="item w2 h2">
+		  			<a href="work/democracy_day/"><img class="caption" src="img/tn_democracy_day.jpg" data-caption="Democracy Day"></a>
+		  		</div>
+			</div>
+		</div>
+		<footer>
+			<ul class="contact">
+				<li class="tooltip email" title="hi@dianatran.com">Email</a></li>
+				<li><a href="http://twitter.com/dianavtran" target="_blank">Twitter</a></li>
+				<li><a href="http://dribbble.com/dianavtran" target="_blank">Dribbble</a></li>
+				<li><a href="http://www.linkedin.com/in/dianavtran" target="_blank">LinkedIn</a></li>
+			</ul>
+		</footer>
+		<div id="about">
+			<div class="textBlock2">
+				<div class="blurb">
+					<p>Howdy, I'm Diana. I'm a designer at Google working on the search team. I live in San Francisco but I don't like avocados which, apparently, is weird.</p>
+				</div>
+				<div class="leftSide overlay">
+					<h2>Current</h2>
+					<div class="expBlock">
+						<h3>Google</h3>
+						<h4>Visual Designer, 2013 – Present</h4>
+					</div>
+					<h2>Previously</h2>
+					<div class="expBlock">
+						<h3>Code for America</h3>
+						<h4>Fellow, City & County of Honolulu, 2012</h4>
+					</div>
+					<div class="expBlock">
+						<h3>United States Marine Corps</h3>
+						<h4>Sergeant, Intelligence Analyst, 2004 – 2010</h4>
+					</div>
+				</div>
+				<div class="rightSide overlay">
+					<h2>Education</h2>
+					<div class="expBlock">
+						<h3>Savannah College of Art & Design</h3>
+						<h4>Graduate studies, Graphic Design</h4>
+					</div>
+					<div class="expBlock">
+						<h3>University of Texas at Arlington</h3>
+						<h4>BFA, Visual Communication</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/meep.js"></script>
+		<script src="js/retina.js"></script>
+	</body>
+</html>
