@@ -744,5 +744,8 @@ li:not(:first-child):before {
         font-size: 14px;
         padding: 0 !important;
       }
+      .projNav li:not(:first-child):before {
+          content: "  ";
+      }
 
     }
