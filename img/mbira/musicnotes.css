@@ -1,0 +1,62 @@
+body, html {
+
+}
+
+.musicnotes {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  justify-content: center;
+
+}
+
+.musicnotes img {
+  width: 40px;
+  height: auto;
+}
+
+.note {
+  margin: 0 4px;
+  animation-name: fadeIn;
+  animation-duration: 2500ms;
+  animation-delay: calc(var(--animation-order) * 150ms);
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.offset {
+  margin-top: -20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  16% {
+    opacity: 1;
+    transform: translateY(-8px);
+  }
+  32% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  48% {
+    opacity: 1;
+    transform: translateY(-8px);
+  }
+  64% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  82% {
+    opacity: 1;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+
+}

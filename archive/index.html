@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" style="background:#6EE2C8">
+<head>
+ <meta charset="utf-8">
+ <title>Diana Tran</title>
+ <link rel="stylesheet" href="style.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-20183993-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-20183993-1');
+  </script>
+</head>
+
+<body>
+
+<div id="wrapper">
+  <div id="contentWrapper" class="mainPage">
+    <div class="mainPageBlocks left">
+      <div class="tab leftTab"></div>
+      <svg class="leftSVG" viewBox="0 0 31.5 31.5" style="width:14px">
+        <path fill="#FF5739" d="M21.2 5c-.4-.4-1.1-.4-1.6 0-.4.4-.4 1.1 0 1.6l8 8H1.2c-.6 0-1.1.5-1.1 1.1 0 .7.5 1.2 1.1 1.2h26.6l-8 8c-.5.4-.5 1.2 0 1.6.4.4 1 .4 1.5 0l10-10a1 1 0 000-1.5l-10-10z"/>
+      </svg>
+      <a href="#">work work</a>
+    </div>
+    <div class="mainPageBlocks middle">
+      Hello there! I'm Diana, currently a designer at Google and a potter.
+      <span class="inlineLink about"><a href="#">+ more</a></span>
+    </div>
+    <div class="mainPageBlocks right">
+      <div class="tab rightTab"></div>
+      <svg viewBox="0 0 31.5 31.5" style="width:14px; align-self:flex-end;">
+        <path fill="#FF5739" d="M21.2 5c-.4-.4-1.1-.4-1.6 0-.4.4-.4 1.1 0 1.6l8 8H1.2c-.6 0-1.1.5-1.1 1.1 0 .7.5 1.2 1.1 1.2h26.6l-8 8c-.5.4-.5 1.2 0 1.6.4.4 1 .4 1.5 0l10-10a1 1 0 000-1.5l-10-10z"/>
+      </svg>
+      <a href="#">
+        not work work
+      </a>
+    </div>
+  </div>
+
+  <div class="share">
+    <div><a href="http://twitter.com/dianavtran" target="_blank">Twitter</a></div>
+    <div><a href="http://instagram.com/divworkshop" target="_blank">Insta</a></div>
+    <div class="email">
+      <a href="mailto:hi@dianatran.com">Email</a>
+      <div class="emailPopWrapper">
+        <div class="bubble">
+          hi@dianatran.com
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="x"></div>
+<div id="about">
+	<div class="textBlock2">
+    <div class="shareOverlay">
+      <div><a href="http://twitter.com/dianavtran" target="_blank">Twitter</a></div>
+      <div><a href="http://instagram.com/divworkshop" target="_blank">Insta</a></div>
+      <div class="email">
+        <a href="mailto:hi@dianatran.com">Email</a>
+        <div class="emailPopWrapper">
+          <div class="bubble">
+            hi@dianatran.com
+          </div>
+        </div>
+      </div>
+    </div>
+		<div class="blurb">
+			<p>I'm a designer at Google working on <a href="http://google.com/doodles" target="_blank">Doodles</a>. Outside of my day job, I'm potter making work as <a href="#">DIV Workshop</a>. I also dabble in making video games, 3D modeling, illustration, and numerous other hobbies.</p>
+		</div>
+		<div class="leftSide overlay">
+			<h2>Current</h2>
+			<div class="expBlock">
+				<h3>Google</h3>
+				<h4>Visual Designer, 2013 – Present</h4>
+			</div>
+			<h2>Previously</h2>
+			<div class="expBlock">
+				<h3>Code for America</h3>
+				<h4>Fellow, City & County of Honolulu, 2012</h4>
+			</div>
+			<div class="expBlock">
+				<h3>United States Marine Corps</h3>
+				<h4>Sergeant, Intelligence Analyst, 2004 – 2010</h4>
+			</div>
+		</div>
+		<div class="rightSide overlay">
+			<h2>Education</h2>
+			<div class="expBlock">
+				<h3>Savannah College of Art & Design</h3>
+				<h4>Graduate studies, Graphic Design</h4>
+			</div>
+			<div class="expBlock">
+				<h3>University of Texas at Arlington</h3>
+				<h4>BFA, Visual Communication</h4>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+
+<script>
+
+$(document).ready(function() {
+  $('.mainPage').css('opacity','1');
+  $('body').css({
+    'height': 'calc(100% - 28px)',
+    'overlow':'hidden'
+  });
+  $('#wrapper').css('height','100%')
+})
+
+$('.left').on('click', function() {
+  $('.leftTab').css({
+    'transform':'scaleY(0)',
+    'opacity':'0'
+  });
+  setTimeout(function() {
+    $('html').addClass('transition').css('background', '#4B89FF');
+    $('.mainPage').css('opacity','0');
+    setTimeout(function() {
+      window.location.href = 'workwork.html';
+    }, 700);
+  }, 100);
+})
+
+$('.right').on('click', function() {
+  $('.rightTab').css({
+    'transform':'scaleY(0)',
+    'opacity':'0',
+    // 'left':'-200px'
+  });
+  setTimeout(function() {
+    $('html').addClass('transition').css('background', '#FFC19A')
+    $('.mainPage').css('opacity','0');
+    setTimeout(function() {
+      window.location.href = 'notworkwork.html';
+    }, 700);
+  }, 100);
+})
+
+$('.about').click(function() {
+	$('#about').fadeIn(200);
+	$('.x').fadeIn(300);
+});
+
+$('.x').click(function() {
+	$('#about').fadeOut(300);
+	$('.x').hide();
+});
+
+$('#about').click(function() {
+	$('#about').fadeOut(300);
+	$('.x').hide();
+});
+
+$('.email').hover(function(){
+  $('.emailPopWrapper').show();
+  }, function(){
+  $('.emailPopWrapper').hide();
+});
+
+</script>
+</html>
