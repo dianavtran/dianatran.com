@@ -714,13 +714,13 @@ li:not(:first-child):before {
       }
       li {
         display: block;
-        margin: 16px 0;
+        margin: 24px 0;
       }
       li:not(:first-child):before {
           content: none;
       }
       .menu {
-        margin: 24px 0;
+        margin: 36px 0 24px;
       }
       .menuNav {
         font-size: 24px;
@@ -732,7 +732,7 @@ li:not(:first-child):before {
         transform: scale(.8);
       }
       li:not(:first-child):before {
-          content: "   ";
+          content: "";
       }
       .bloop {
         width: 95%;
